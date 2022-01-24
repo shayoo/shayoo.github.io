@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Me</title>
+<style>
+	.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  background-image: url('hi.jpg');
+  background-size: 130%;
+  opacity: 90%; 
+}
+
+
+.right {
+  right: 0;
+  background-color: black;
+  font-size: 16px;
+font-family: "Courier New", Courier, monospace;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ .menu{
+	text-align: center;
+	width: 50%;
+	height: 30px;
+	word-spacing: 30px;
+	top: 0px;
+	position: fixed;
+	background-color: black;
+	display: block;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+h2{
+	color: white;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+section {
+	line-height: 1.8;
+}
+#sayo{
+	color: white;
+	width: 90%;
+	height: 90%;
+	margin-left: 50px;
+	float: left;
+	display: block;
+}
+#quote{
+	text-align: justify;
+	display: block;
+	margin-left: 70px;
+	margin-right: 100px;
+	float: left;
+}
+#fin{text-align: left;
+	color: white;
+	width: 90%;
+	height: 20%;
+	margin-left: 10px;
+	margin-top: 50px;
+	float: left;
+	display: block;
+}
+footer{
+	color: white;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	padding: 0px;
+	bottom: 0px;
+	position:fixed;
+}
+@media (min-width: 1200px) {.col-lg-1, .col-lg-2
+
+{	float: left;
+	display: block;
+	}
+	.col-lg-1 {
+			width: 90%;
+		}
+		.col-lg-2{
+			width: 70%;
+			height: 100px;
+		}
+	}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+	.col-md-1, .col-md-2 {
+		float: left;
+		
+	
+	}
+	.col-md-1 {
+			width: 80%;
+		}
+		.col-md-2{
+			width: 15%;
+			height: 50px;}
+ }
+</style>
+</head>
+
+<body>
+
+	<div class="split left">
+  <div class="centered">
+    <img src="me.png" alt="me">
+  </div>
+</div>
+
+<div class="split right">
+	<div class="menu">
+		<a href="me.html">Home</a>
+		<a href="#sayo">About</a>
+		</div>
+
+	<h2>Hey there,</h2>
+		<div class="col-lg-1 col-md-1" id="sayo">I'm Olusayo, male, and a Nigerian. I like website design, music and books. <p>I hope to start a new career in tech soon</p>
+		<p>My areas of interest are:</p>
+		<ul>
+		<li>Data Science</li>
+		<li>Software design</li>
+		<li>Python;</li>	
+		</ul>
+		<p>I take a couple of classes online but i know that with some extra help from someone and extra dedication from me my learning process will be hastened</p>
+		<p> I am currently serving and i will like to go back to school soon</p>
+		<p>My words to live by:</p>
+		<div class="col-lg-2 col-md-2" id="quote"><i>"I feel myself driven towards an end that I do not know. As soon as i shall have reached it, as soon as i shall become unnecessary, an aton will suffice to shatter me. Till then, not all the forces of mankind can do anything against me" -Napoleon Bonaparte</i></div>
+		<div class="col-lg-1 col-md-1" id="fin">
+			I hope I have not taken too much of your time, Have a great day!
+		And remember to always mask up and stay safe!!
+		</div>
+		</div>
+		
+	
+			
+	<footer class="right" id="footer">
+		Contact me : +2347057320, +2347012890
+		<br>See you .....
+	</footer>
+</div>
+</body>
+</html>
